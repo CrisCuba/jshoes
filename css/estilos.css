@@ -351,6 +351,14 @@ div button {
   height: 215px;
 }
 
+zoom {
+  transition: transform .5s; 
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
 /* Sección envíos / Multipagina */
 #grilla {
   display: grid;
