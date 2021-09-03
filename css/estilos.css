@@ -359,6 +359,10 @@ zoom {
   transform: scale(1.1); 
 }
 
+.img-carrito{
+  width: 10px;
+  height: 10px;
+}
 /* Sección envíos / Multipagina */
 #grilla {
   display: grid;

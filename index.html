@@ -11,14 +11,17 @@
     <link rel="stylesheet" href="fuentes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <meta name="keywords" content="calzado, zapatos, zapatillas, moda, venta online, ">
-    <meta name="description" content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
+    <meta name="description"
+        content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
 </head>
 
 <body>
 
     <header>
         <div class="navbar navbar-dark bg-dark">
-            <a class="nav-link w-100 link-cuotas" href="formas_de_pago.html"><marquee>3, 6 y 12 cuotas sin interés</marquee></a>
+            <a class="nav-link w-100 link-cuotas" href="formas_de_pago.html">
+                <marquee>3, 6 y 12 cuotas sin interés</marquee>
+            </a>
         </div>
         <div class="w-100 navegacion">
             <nav class="navbar navbar-expand-lg navbar-light bg-light bg-opacity-40">
@@ -42,7 +45,8 @@
                         <div class="navbar-nav hover">
                             <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
                             <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
-                            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v2.png" alt="carrito">
+                            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v2.png"
+                                alt="carrito">
                         </div>
                     </div>
                 </div>
@@ -51,43 +55,44 @@
         <div class="container-fluid" style="background-image: url(./imagenes/hero.webp);">
             <h1 class="display-1 animate__animated animate__rubberBand">ALWAYS IN MOTION</h1>
         </div>
-            <div class="container-fluid">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                            class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="promociones.html"><img src="imagenes/banner-outlet-OI20.webp" class="d-block w-100"
+                                alt="outlet"></a>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="promociones.html"><img src="imagenes/banner-outlet-OI20.webp" class="d-block w-100"
-                                    alt="outlet"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="promociones.html"><img src="imagenes/banner-rebajas.webp" class="d-block w-100"
-                                    alt="rebajas"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="promociones.html"><img src="imagenes/2x1.webp" class="d-block w-100" alt="dosporuno"></a>
-                        </div>
-                        <div>
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
+                    <div class="carousel-item">
+                        <a href="promociones.html"><img src="imagenes/banner-rebajas.webp" class="d-block w-100"
+                                alt="rebajas"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="promociones.html"><img src="imagenes/2x1.webp" class="d-block w-100"
+                                alt="dosporuno"></a>
+                    </div>
+                    <div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
+        </div>
     </header>
     <main>
         <section class="section-catalogo">
@@ -103,8 +108,32 @@
                                 <h5 class="card-title">Raven Blanco</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
                                     <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/ravenblanco.webp" class="img-carrito"
+                                                    alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -116,8 +145,32 @@
                                 <h5 class="card-title">Raven Negro</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad2">
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
+                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/ravennegro.webp" class="img-carrito"
+                                                    alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,8 +182,31 @@
                                 <h5 class="card-title">Reason</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad3">
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
+                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/reason.webp" class="img-carrito" alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -142,8 +218,31 @@
                                 <h5 class="card-title">Street</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad4">
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
+                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/street.webp" class="img-carrito" alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -155,8 +254,31 @@
                                 <h5 class="card-title">York</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad5">
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
+                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/york.webp" class="img-carrito" alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -168,8 +290,31 @@
                                 <h5 class="card-title">Borcego</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
-                                    <button type="button">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad6">
+                                    <button type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">Comprar</button>
+                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                </div>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Agregar al carrito</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img src="imagenes/borcego.webp" class="img-carrito" alt="raven_blanca">
+                                                <span>Sumar artículo al carrito</span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Añadir</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -228,9 +373,9 @@
             <div class="col-3">
                 <h4 class="h4-pagos">Medios de Pago</h4>
                 <!-- imagenes de tarjetas aceptadas-->
-                <img style="margin-left: auto; margin-right: auto;" class="iconotc" src="imagenes/PNG/visa-1.png" alt="tc_visa"><img
-                    class="iconotc" src="imagenes/PNG/mastercard.png" alt="tc_mastercard"><img class="iconotc"
-                    src="imagenes/PNG/american-express.png" alt="tc_amex">
+                <img style="margin-left: auto; margin-right: auto;" class="iconotc" src="imagenes/PNG/visa-1.png"
+                    alt="tc_visa"><img class="iconotc" src="imagenes/PNG/mastercard.png" alt="tc_mastercard"><img
+                    class="iconotc" src="imagenes/PNG/american-express.png" alt="tc_amex">
                 <img class="iconotc" src="imagenes/PNG/maestro.png" alt="tc_maestro">
             </div>
             <div class="col-3">
