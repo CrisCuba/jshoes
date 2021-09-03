@@ -6,6 +6,7 @@
   justify-content: space-around;
 }
 
+
 /* Navbar */
 body {
   overflow-x: hidden;
@@ -856,9 +857,7 @@ select {
   header li a {
     display: none;
   }
-  h1 {
-    display: none;
-  }
+
   footer {
     background-color: rgba(252, 195, 209, 0.541);
   }
