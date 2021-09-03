@@ -25,7 +25,9 @@ header {
   border-bottom: 1px solid grey;
 }
 
-
+.navegacion{
+  z-index: 1020;
+}
 .navbar-box {
   display: flex;
   width: 100%;
@@ -148,14 +150,16 @@ article h3 {
     padding-left: 0;
     padding-right: 0;
   }
+  .hover img{
+    display: none;
+  }
   .carousel-inner {
-    height: 200px;
-    padding: 0;
+    display: none;
   }
-  .carousel-inner img {
-    height: 200px;
-    padding: 0;
+  .carousel-indicators {
+    display: none;
   }
+
   .box-formulario {
     margin: 10px;
   }
@@ -191,14 +195,16 @@ article h3 {
     padding-left: 0;
     padding-right: 0;
   }
+  .hover img{
+    display: none;
+  }
   .carousel-inner {
-    height: 200px;
-    padding: 0;
+    display: none;
   }
-  .carousel-inner img {
-    height: 200px;
-    padding: 0;
+  .carousel-indicators {
+    display: none;
   }
+
   .box-identidad{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -284,6 +290,10 @@ article h3 {
   .carousel-inner {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .hover img{
+    display: none;
   }
   .section-catalogo {
     width: 100%;
