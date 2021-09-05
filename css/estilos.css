@@ -95,7 +95,7 @@ body {
 }
 
 #slogan {
-  font-family: 'sweet_purple';
+  font-family: 'Merciful Heart';
 }
 
 article h3 {
@@ -218,6 +218,10 @@ article h3 {
     height: 500px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+
+  .box-2x1{
+    flex-direction: column;
   }
   textarea {
     width: 100px;
@@ -657,46 +661,76 @@ zoom {
   margin-left: 20px;
 }
 
+.box__promociones {
+  display:grid;
+  grid-template-areas: 
+  "div";
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
 .box-2x1 {
-  flex-direction: row;
-  margin-left: 50px;
+  display: grid;
+  grid-template-areas: 
+  "h2 img";
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .imagen2x1 {
-  width: 60%;
-  margin-left: 400px;
+  width: 100%;
 }
 
-.subtitulo2x1 {
-  text-align: left;
+.subtitulo2x1{
+  font-family: 'sweet purple';
+  font-size: 100px;
+  text-shadow: 2px 2px 2px crimson;
 }
-
 .box-50 {
-  flex-direction: row;
-  margin-left: 50px;
+  display: grid;
+  grid-template-areas: 
+  "h2 img";
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .imagen50 {
-  width: 60%;
-  margin-left: 400px;
+  width: 100%;
+
 }
 
-.subtitulo50 {
-  text-align: left;
+.subtitulo50{
+  font-family: 'sweet purple';
+  font-size: 100px;
+  text-shadow: 2px 2px 2px crimson;
 }
-
 .box-outlet {
-  flex-direction: row;
-  margin-left: 50px;
+  display: grid;
+  grid-template-areas: 
+  "h2 img";
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .imagenoutlet {
-  width: 60%;
-  margin-left: 400px;
+  width: 100%;
 }
 
 .subtitulooutlet {
-  text-align: left;
+  font-family: 'sweet purple';
+  font-size: 100px;
+  text-shadow: 2px 2px 2px crimson;
 }
 
 /*Página Contacto*/
