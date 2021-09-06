@@ -228,11 +228,12 @@ zoom {
 }
 
 .box-envios {
-  flex-direction: row;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
   height: 100%;
-  margin: 10px 10px;
+  margin: auto;
   border: 0;
   padding: o auto;
 }
@@ -255,10 +256,12 @@ zoom {
 }
 
 .box-pagos {
-  flex-direction: row;
-  width: 35%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
   height: 100%;
-  margin: 10px 10px;
+  margin: auto;
   border: 0;
   padding: o auto;
 }
@@ -281,10 +284,12 @@ zoom {
 }
 
 .box-seguridad {
-  flex-direction: row;
-  width: 33%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
   height: 100%;
-  margin: 10px 10px;
+  margin: auto;
   border: 0;
   padding: o auto;
 }
@@ -858,6 +863,11 @@ select {
     grid-template-rows: repeat(2, 1fr);
   }
 
+  #complemento{
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: 300px;
+  }
+  
   div textarea {
     max-width: 200px;
     max-height: 150px;
@@ -909,6 +919,12 @@ select {
   .box-2x1{
     flex-direction: column;
   }
+
+  #complemento{
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: 300px;
+  }
+
   div textarea {
     width: 320px;
     height: 100px;
