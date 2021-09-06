@@ -200,14 +200,15 @@ zoom {
   height: 10px;
 }
 /* Sección envíos / Multipagina */
-#grilla {
+#complemento {
   display: grid;
   grid-template-areas: "box-envios box-pagos box-seguridad";
   grid-template-rows: 200px;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-columns: repeat (3, 1fr);
   grid-column-gap: 10px;
-  justify-items: start;
-}
+  justify-content: center;
+  align-items: center;
+}	
 
 .card {
   background-color: rgba(252, 195, 209, 0.004);
@@ -956,6 +957,10 @@ select {
     height: 500px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
+  }
+  #complemento{
+    grid-template-rows: repeat (3, 1fr);
+    grid-template-columns: 300px;
   }
 
   div textarea {
