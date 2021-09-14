@@ -200,14 +200,15 @@ zoom {
   height: 10px;
 }
 /* Sección envíos / Multipagina */
-#complemento {
+.complemento {
   display: grid;
-  grid-template-areas: "box-envios box-pagos box-seguridad";
+  grid-template-areas: "pagos envios seguridad";
   grid-template-rows: 200px;
-  grid-template-columns: repeat (3, 1fr);
-  grid-column-gap: 10px;
+  grid-template-columns: repeat (autofit, 1fr);
+  grid-gap: 30px;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }	
 
 .card {
@@ -228,6 +229,7 @@ zoom {
 }
 
 .box-envios {
+  grid-area: envios;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -256,6 +258,7 @@ zoom {
 }
 
 .box-pagos {
+  grid-area: pagos;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -284,6 +287,7 @@ zoom {
 }
 
 .box-seguridad {
+  grid-area: seguridad;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -863,9 +867,9 @@ select {
     grid-template-rows: repeat(2, 1fr);
   }
 
-  #complemento{
+  .complemento{
     grid-template-rows: repeat (3, 1fr);
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
   }
   
   div textarea {
@@ -920,9 +924,9 @@ select {
     flex-direction: column;
   }
 
-  #complemento{
+  .complemento{
     grid-template-rows: repeat (3, 1fr);
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
   }
 
   div textarea {
@@ -974,9 +978,9 @@ select {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  #complemento{
+  .complemento{
     grid-template-rows: repeat (3, 1fr);
-    grid-template-columns: 300px;
+    grid-template-columns: 1fr;
   }
 
   div textarea {
@@ -998,6 +1002,7 @@ select {
     height: 100px;
   }
 }
+
 
 @media (min-width: 768px) {
   .container-md,
