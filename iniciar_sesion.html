@@ -41,10 +41,14 @@
                             <a class="nav-link" href="formas_de_pago.html">Formas de Pago</a>
                             <a class="nav-link" href="contacto.html">Contacto</a>
                         </div>
-                        <div class="navbar-nav hover">
-                            <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
-                            <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
-                            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v2.png"/>
+                        <div class="navbar-nav hover d-grid">
+                            <div class="d-grid pb-1" style="grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
+                                <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+                            </div>
+                            <div>
+                                <input type="search" placeholder="Buscar Producto">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -53,14 +57,14 @@
     </header>
     <main>
         <div>
-            <div class="row row-cols-2 contenedor-sesion">
+            <div style="-bs-gutter-x: 0;" class="row row-cols-2 contenedor-sesion mb-5">
                 <div class="contenedor-inicio col w-50"
                     style="background-image: url(./imagenes/hero.webp);">
                     <h1 id="slogan" class="display-1 animate__animated animate__rubberBand">ALWAYS IN MOTION</h1>
                 </div>
                 <div style="align-content: center;" class="contenedor-inicio col w-50">
                     <h2 class="display-3">INICIAR SESIÓN</h2>
-                    <form class="col-2 formulario-inicio">
+                    <form class="col-2 formulario-inicio mb-2">
                         <div>
                             <label for="usuario">USUARIO:</label>
                             <input type="text" name="usuario" id="usuario">
@@ -74,18 +78,18 @@
                 </div>
             </div>
             <div>
-                <section class="row">
-                    <div style="justify-content:space-around;" class="row row-cols-1 row-cols-md-6 g-2">
-                        <div style="margin: 20px;" class="col">
+                <section>
+                    <div class="complemento">
+                        <div class="box-envios">
                             <div style="align-items: center;" class="card">
                                 <img style="width: 100px; height: 100px;" src="imagenes/truck.png" alt="camion">
                                 <div class="card-body">
-                                    <h5 class="card-title">ENVIOS POR MOTO O CORREO ARGENTINO</h5>
+                                    <h5 class="card-title">ENVIOS POR CORREO ARGENTINO</h5>
                                     <p class="card-text"> Entregas a todo el país</p>
                                 </div>
                             </div>
                         </div>
-                        <div style="margin: 20px;" class="col">
+                        <div class="box-pagos">
                             <div style="align-items: center;" class="card">
                                 <img style="width: 100px; height: 100px;" src="imagenes/pagos.png"
                                     class="card-img-top removerbg" alt="tarjeta">
@@ -95,7 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="margin: 20px;" class="col">
+                        <div class="box-seguridad">
                             <div style="align-items: center;" class="card">
                                 <img style="width: 100px; height: 100px; padding-top: 10px;" src="imagenes/candado.png"
                                     class="card-img-top removerbg" alt="candado">
@@ -124,20 +128,24 @@
                     </ul>
                 </NAV>
             </div>
-            <div class="col-3">
+            <div class="col-3 align-items-center">
                 <h4 class="h4-pagos">Medios de Pago</h4>
-                <!-- imagenes de tarjetas aceptadas-->
-                <img style="margin-left: auto; margin-right: auto;" class="iconotc" src="imagenes/PNG/visa-1.png"><img
-                    class="iconotc" src="imagenes/PNG/mastercard.png"><img class="iconotc"
-                    src="imagenes/PNG/american-express.png">
-                <img class="iconotc" src="imagenes/PNG/maestro.png">
+                <div class="d-flex justify-content-center align-content-center">
+                    <!-- imagenes de tarjetas aceptadas-->
+                    <img class="iconotc" src="imagenes/PNG/visa-1.png" alt="tc_visa">
+                    <img class="iconotc" src="imagenes/PNG/mastercard.png" alt="tc_mastercard">
+                    <img class="iconotc" src="imagenes/PNG/american-express.png" alt="tc_amex">
+                    <img class="iconotc" src="imagenes/PNG/maestro.png" alt="tc_maestro">
+                </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 align-items-center">
                 <h4 class="h4-encontranos">Encontranos</h4>
                 <!-- redes sociales-->
-                <img class="icono-facebook" src="imagenes/facebook.png"><a title="Facebook"
-                    href="https://www.instagram.com/justinashoes2021/" target="_blank"><img class="icono-instagram"
-                        src="imagenes/instagram.png" alt="Instagram"></a>
+                <div class="d-flex justify-content-center align-content-center">
+                    <a title="Facebook" href="https://www.instagram.com/justinashoes2021/" id="share-fb" class="sharer button"><i class="fa fa-3x fa-facebook-square"></i></a>
+                    <a title="Instagram" href="https://www.instagram.com/justinashoes2021/" target="_blank"><img class="icono-instagram iconotc bg-light;" src="imagenes/instagram.png" alt="Instagram"></a>
+                </div>
+                    
                 <link rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                 <a href="https://api.whatsapp.com/send?phone=541153898292&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."

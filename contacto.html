@@ -10,14 +10,17 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <meta name="keywords" content="calzado, zapatos, zapatillas, moda, venta online">
-    <meta name="description" content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
+    <meta name="description"
+        content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
 </head>
 
 <body>
 
     <header>
         <div class="navbar navbar-dark bg-dark">
-            <a class="nav-link w-100 link-cuotas" href="formas_de_pago.html"><marquee>3, 6 y 12 cuotas sin interés</marquee></a>
+            <a class="nav-link w-100 link-cuotas" href="formas_de_pago.html">
+                <marquee>3, 6 y 12 cuotas sin interés</marquee>
+            </a>
         </div>
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light bg-opacity-40">
@@ -38,10 +41,14 @@
                             <a class="nav-link" href="formas_de_pago.html">Formas de Pago</a>
                             <a class="nav-link" href="contacto.html">Contacto</a>
                         </div>
-                        <div class="navbar-nav hover">
-                            <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
-                            <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
-                            <img src="https://img.icons8.com/material-outlined/24/000000/shopping-cart--v2.png"/>
+                        <div class="navbar-nav hover d-grid">
+                            <div class="d-grid pb-1" style="grid-template-columns: 1fr 1fr; gap: 5px;">
+                                <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
+                                <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
+                            </div>
+                            <div>
+                                <input type="search" placeholder="Buscar Producto">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -55,29 +62,20 @@
         <div class="box-titulo">
             <h2 class="display-3">Contacto</h2>
         </div>
-        <div class="container-fluid">
-            <form class="box-formulario">
-                <div class="cont-formulario">
-                    <div>
-                        <label class="etiquetas" for="">Nombre:</label>
-                        <input class="casillero" type="text" name="nombre">
-                    </div>
-                    <div>
-                        <label class="etiquetas" for="">Teléfono:</label>
-                        <input class="casillero" type="number" name="telefono">
-                    </div>
-                    <div>
-                        <label class="etiquetas" for="">E-Mail:</label>
-                        <input class="casillero" type="email" name="email">
-                    </div>
-                    <div>
-                        <label class="etiquetas" for="">Comentario:</label>
-                        <textarea cols="30" rows="10" name="comentario"></textarea>
-                    </div>
-                    <input class="boton-enviar" type="submit" name="enviar">
-                    <input class="boton-reset" type="reset" value="Limpiar Formulario">
-                </div>
-            </form>
+        <div class="w-50 m-auto">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre y Apellido</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="usuario@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
         </div>
         <section>
             <div class="complemento">
@@ -119,7 +117,7 @@
                 <h4 class="h4-navegacion">Navegación</h4>
                 <NAV class="lista-navegacion">
                     <ul>
-                        <li><a class="enlace" href="quienes_Somos.html"> Quienes Somos</a></li>
+                        <li><a class="enlace" href="quienes_somos.html"> Quienes Somos</a></li>
                         <li><a class="enlace" href="nuestros_productos.html"> Nuestros Productos</a></li>
                         <li><a class="enlace" href="promociones.html"> Promociones</a></li>
                         <li><a class="enlace" href="formas_de_pago.html"> Formas de Pago</a></li>
@@ -127,20 +125,26 @@
                     </ul>
                 </NAV>
             </div>
-            <div class="col-3">
+            <div class="col-3 align-items-center">
                 <h4 class="h4-pagos">Medios de Pago</h4>
-                <!-- imagenes de tarjetas aceptadas-->
-                <img style="margin-left: auto; margin-right: auto;" class="iconotc" src="imagenes/PNG/visa-1.png"><img
-                    class="iconotc" src="imagenes/PNG/mastercard.png"><img class="iconotc"
-                    src="imagenes/PNG/american-express.png">
-                <img class="iconotc" src="imagenes/PNG/maestro.png">
+                <div class="d-flex justify-content-center align-content-center">
+                    <!-- imagenes de tarjetas aceptadas-->
+                    <img class="iconotc" src="imagenes/PNG/visa-1.png" alt="tc_visa">
+                    <img class="iconotc" src="imagenes/PNG/mastercard.png" alt="tc_mastercard">
+                    <img class="iconotc" src="imagenes/PNG/american-express.png" alt="tc_amex">
+                    <img class="iconotc" src="imagenes/PNG/maestro.png" alt="tc_maestro">
+                </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 align-items-center">
                 <h4 class="h4-encontranos">Encontranos</h4>
                 <!-- redes sociales-->
-                <img class="icono-facebook" src="imagenes/facebook.png"><a title="Facebook"
-                    href="https://www.instagram.com/justinashoes2021/" target="_blank"><img class="icono-instagram"
-                        src="imagenes/instagram.png" alt="Instagram"></a>
+                <div class="d-flex justify-content-center align-content-center">
+                    <a title="Facebook" href="https://www.instagram.com/justinashoes2021/" id="share-fb"
+                        class="sharer button"><i class="fa fa-3x fa-facebook-square"></i></a>
+                    <a title="Instagram" href="https://www.instagram.com/justinashoes2021/" target="_blank"><img
+                            class="icono-instagram iconotc bg-light;" src="imagenes/instagram.png" alt="Instagram"></a>
+                </div>
+
                 <link rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                 <a href="https://api.whatsapp.com/send?phone=541153898292&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
