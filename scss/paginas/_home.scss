@@ -1,0 +1,36 @@
+
+  /* Sección Catálogo / index */
+  div button {
+    width: 80px;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .section-catalogo {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 80%;
+  }
+  
+  .seccionCatalogo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+    align-content: flex-start;
+    margin: 0 100px;
+  }
+  
+  .product-box {
+    position: relative;
+  }
+  
+  .card img {
+    width: 215px;
+    height: 215px;
+  }
+  

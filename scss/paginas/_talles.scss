@@ -1,0 +1,35 @@
+
+  /*Página Tabla de Talles*/
+  .seccionTalles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px 50px;
+  }
+  
+  .titulo-seccion {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  
+  .box-tallesAdultos {
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  
+  .box-p {
+    flex-direction: row;
+    width: 30%;
+  }
+  
+  .box-tablaNiños {
+    margin-left: 50px;
+  }
+  
+  .imagenPie {
+    flex-direction: row;
+    margin-left: 300px;
+  }
+  
