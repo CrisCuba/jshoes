@@ -1,16 +1,14 @@
 @import 'reset';
+
 @import 'variables';
+
 @import 'fuentes';
-@import 'layout / footer';
-@import 'layout / header';
-@import 'componentes / componentes';
-@import 'paginas / home';
-@import 'paginas / identidad';
-@import 'paginas / promos';
-@import 'paginas / contacto';
-@import 'paginas / cuenta';
-@import 'paginas / pagos';
-@import 'paginas / productos';
+
+@import './layout/footer', './layout/header';
+
+@import './componentes/componentes';
+
+@import './paginas/home', './paginas/identidad', './paginas/promos', './paginas/contacto', './paginas/cuenta', './paginas/pagos', './paginas/productos', './paginas/sesion';
 
 
 
@@ -151,15 +149,6 @@
       font-size: 15px;
     }
   
-  }
-  
-  .box-imagenes {
-    display: flex;
-    gap: 10px;
-    width: 700px;
-    height: 300px;
-    margin: 50px auto;
-    overflow-x: auto;
   }
 
 
