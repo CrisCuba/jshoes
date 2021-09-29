@@ -9,19 +9,16 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="fuentes.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <meta name="keywords" content="calzado, zapatos, zapatillas, moda, venta online, ">
-    <meta name="description" content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
-    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
-    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
-    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
-    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+    <meta name="description"
+        content="Tienda online de Zapatos y Zapatillas para la mujer. Envío gratis y Cuotas sin interés.">
 </head>
 
 <body>
 
     <header>
+        <!-- Banda de comunicación -->
         <div class="navbar navbar-dark bg-dark">
             <a class="nav-link w-100 link-cuotas" href="formas_de_pago.html">
                 <marquee>3, 6 y 12 cuotas sin interés</marquee>
@@ -47,7 +44,7 @@
                             <a class="nav-link" href="contacto.html">Contacto</a>
                         </div>
                         <div class="navbar-nav hover d-grid">
-                            <div class="d-grid pb-1" style="grid-template-columns: 1fr 1fr; gap: 5px;">
+                            <div class="d-grid pb-1" style="grid-template-columns: 1fr 1fr; gap: 10px;">
                                 <a class="nav-link" href="crear_cuenta.html">Crear Cuenta</a>
                                 <a class="nav-link" href="iniciar_sesion.html">Iniciar Sesión</a>
                             </div>
@@ -59,9 +56,11 @@
                 </div>
             </nav>
         </div>
+        <!-- Hero y slogan -->
         <div class="container-fluid" style="background-image: url(./imagenes/hero.webp);">
             <h1 class="display-1 animate__animated animate__rubberBand">ALWAYS IN MOTION</h1>
         </div>
+        <!-- Carrusel -->
         <div class="container-fluid">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -102,6 +101,7 @@
         </div>
     </header>
     <main>
+        <!-- Catálogo con principales productos -->
         <section class="section-catalogo">
             <div>
                 <h2 style="text-align: start" class="display-3">Los más vendidos</h2>
@@ -110,14 +110,15 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                     <div class="col">
                         <div style="align-items: center" class="card">
-                            <img src="imagenes/ravenblanco.webp" class="card-img-top zoom border border-light" alt="raven_blanca">
+                            <img src="imagenes/ravenblanco.webp" class="card-img-top zoom border border-light"
+                                alt="raven_blanca">
                             <div class="card-body">
                                 <h5 class="card-title">Raven Blanco</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -147,14 +148,15 @@
                     </div>
                     <div class="col">
                         <div style="align-items: center" class="card">
-                            <img src="imagenes/ravennegro.webp" class="card-img-top zoom border border-light" alt="raven_negra">
+                            <img src="imagenes/ravennegro.webp" class="card-img-top zoom border border-light"
+                                alt="raven_negra">
                             <div class="card-body">
                                 <h5 class="card-title">Raven Negro</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -191,7 +193,7 @@
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -227,9 +229,9 @@
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
-                                <!-- Modal -->
+                                <!-- Modal, simulación de agregar producto a carrito -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
@@ -256,14 +258,15 @@
                     </div>
                     <div class="col">
                         <div style="align-items: center" class="card">
-                            <img class="zoom" src="imagenes/york.webp" class="card-img-top border border-light" alt="york">
+                            <img class="zoom" src="imagenes/york.webp" class="card-img-top border border-light"
+                                alt="york">
                             <div class="card-body">
                                 <h5 class="card-title">York</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -292,14 +295,15 @@
                     </div>
                     <div class="col">
                         <div style="align-items: center" class="card">
-                            <img src="imagenes/borcego.webp" class="card-img-top zoom border border-light" alt="borcego">
+                            <img src="imagenes/borcego.webp" class="card-img-top zoom border border-light"
+                                alt="borcego">
                             <div class="card-body">
                                 <h5 class="card-title">Borcego</h5>
                                 <p class="card-text"> Precio</p>
                                 <div style="display: flex;">
                                     <button type="button" data-bs-toggle="modal"
                                         data-bs-target="#exampleModal">Comprar</button>
-                                    <input style="width: 50px;" type="number" name="cantidad" id="cantidad1">
+                                    <input style="width: 50px;" type="number" min="1" name="cantidad" id="cantidad1">
                                 </div>
                                 <!-- Modal -->
                                 <div class="modal fade" id="exampleModal" tabindex="-1"
@@ -330,6 +334,7 @@
             </div>
         </section>
         <section>
+            <!-- Sección multipágina -envíos - pagos - seguridad -->
             <div class="complemento">
                 <div class="box-envios">
                     <div style="align-items: center;" class="card">
@@ -365,10 +370,10 @@
     </main>
     <footer>
         <div style="margin-left: 0;" class="row bg-dark w-100">
-            <div class="col-3">
+            <div class="col-3 align-items-center">
                 <h4 class="h4-navegacion">Navegación</h4>
                 <NAV class="lista-navegacion">
-                    <ul>
+                    <ul class="p-0">
                         <li><a class="enlace" href="quienes_somos.html"> Quienes Somos</a></li>
                         <li><a class="enlace" href="nuestros_productos.html"> Nuestros Productos</a></li>
                         <li><a class="enlace" href="promociones.html"> Promociones</a></li>
@@ -390,11 +395,13 @@
             <div class="col-3 align-items-center">
                 <h4 class="h4-encontranos">Encontranos</h4>
                 <!-- redes sociales-->
-                <div class="d-flex justify-content-center align-content-center">
-                    <a title="Facebook" href="https://www.instagram.com/justinashoes2021/" id="share-fb" class="sharer button"><i class="fa fa-3x fa-facebook-square"></i></a>
-                    <a title="Instagram" href="https://www.instagram.com/justinashoes2021/" target="_blank"><img class="icono-instagram iconotc bg-light;" src="imagenes/instagram.png" alt="Instagram"></a>
+                <div class="d-flex justify-content-space-around align-items-center h-25">
+                    <a title="Facebook" href="https://www.instagram.com/justinashoes2021/" id="share-fb"
+                        class="sharer button"><i class="fa fa-facebook"></i></a>
+                    <a title="Instagram" href="https://www.instagram.com/justinashoes2021/" id="share-ins"
+                            class="sharer button align-content-center"><i class="fa fa-instagram"></i></a>
                 </div>
-                    
+
                 <link rel="stylesheet"
                     href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
                 <a href="https://api.whatsapp.com/send?phone=541153898292&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
@@ -407,7 +414,11 @@
             </div>
         </div>
     </footer>
-    <script src="Scripts/bootstrap.bundle.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/brands.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/solid.js"></script>
+    <script defer src="/your-path-to-fontawesome/js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
+    <script src="scripts/bootstrap.bundle.js"></script>
 </body>
 
 </html>

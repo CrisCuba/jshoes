@@ -1,0 +1,24 @@
+  /* Página Nuestros Productos */
+  .box-np {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .seccionCatalogo2 {
+    height: 250vh;
+    width: 100%;
+    text-align: justify;
+    margin: 0 100px;
+    padding: 10px;
+  }
+  
+  .product-box2 {
+    position: relative;
+  }
+  
+  #imgProducto {
+    width: 215px;
+    height: 215px;
+  }
+  

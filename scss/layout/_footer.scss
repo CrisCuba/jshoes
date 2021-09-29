@@ -1,0 +1,70 @@
+
+  /*Pie de pagina*/
+  /*.pie-box{
+      display: flex;
+      height: 200px;
+      background-color: rgb(73, 73, 73);
+  }*/
+  .navegacion-box {
+    flex-direction: row;
+    width: 40%;
+  }
+  
+  .h4-navegacion {
+    text-align: center;
+    padding-left: 2rem;
+    margin-top: 20px;
+    color: crimson;
+  }
+  
+  .lista-navegacion {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .iconotc {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  
+  .icono-facebook {
+    flex-flow: column;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+  
+  .icono-instagram {
+    flex-flow: column;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+ 
+  
+  .pagos-box {
+    flex-direction: row;
+    width: 40%;
+  }
+  
+  .h4-pagos {
+    text-align: center;
+    margin-top: 20px;
+    color: crimson;
+  }
+  
+  .encontranos-box {
+    flex-direction: row;
+    width: 35%;
+  }
+  
+  .h4-encontranos {
+    text-align: center;
+    margin-top: 20px;
+    color: crimson;
+  }
+  

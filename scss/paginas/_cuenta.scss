@@ -1,0 +1,47 @@
+ 
+  /* Página Creación de cuenta */
+  form div label {
+    margin-top: 20px;
+    margin-left: o auto;
+    padding: 0;
+  }
+  
+  form div input {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+  }
+  
+  select {
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+  }
+  
+  /*.formulario-cuenta {
+      width: 100%;
+      height: 500px;
+      margin: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      align-items: left;
+  }
+  
+  /* Página Creación de cuenta */
+  .formulario-inicio {
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  

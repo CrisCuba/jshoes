@@ -1,0 +1,62 @@
+
+  /*Página Contacto*/
+  .box-titulo {
+    margin: 40px 20px;
+  }
+  
+  .box-formulario {
+    width: 60%;
+    height: 800px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .cont-formulario {
+    width: 70%;
+    text-align: left;
+  }
+  
+  .box-formas {
+    margin: 20px 0;
+  }
+  
+  .casillero {
+    width: 90%;
+    height: 30px;
+    margin: 0.5 rem;
+    border-radius: 10px;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+  }
+  
+  .etiquetas {
+    margin-top: 20px;
+    margin-left: o auto;
+  }
+  
+  textarea {
+    width: 500px;
+    border-radius: 10px;
+    margin: 0.5rem;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+  }
+  
+  .boton-enviar {
+    width: 60px;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+    border-radius: 10px;
+    margin-left: o auto;
+  }
+  
+  .boton-reset {
+    width: 150px;
+    background-color: rgba(71, 110, 71, 0.733);
+    color: whitesmoke;
+    border-radius: 10px;
+  }
+  

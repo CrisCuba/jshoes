@@ -1,0 +1,58 @@
+
+  /*Página Promociones*/
+  .box-promociones {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .box-promociones h1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  
+  .box-2x1 {
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  
+  .imagen2x1 {
+    width: 60%;
+    margin-left: 400px;
+  }
+  
+  .subtitulo2x1 {
+    text-align: left;
+  }
+  
+  .box-50 {
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  
+  .imagen50 {
+    width: 60%;
+    margin-left: 400px;
+  }
+  
+  .subtitulo50 {
+    text-align: left;
+  }
+  
+  .box-outlet {
+    flex-direction: row;
+    margin-left: 50px;
+  }
+  
+  .imagenoutlet {
+    width: 60%;
+    margin-left: 400px;
+  }
+  
+  .subtitulooutlet {
+    text-align: left;
+  }
+  
